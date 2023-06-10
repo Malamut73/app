@@ -170,7 +170,7 @@
 }
 
 .rightside__menu {
-    display: none;
+    display: block;
     z-index: 2;
     position: absolute;
     right: 0;
@@ -182,10 +182,10 @@
     width: 100%;
     box-shadow: -2px 3px 17px 0px #000;
     transition: .3s;
-    // height: 1000px;
 
     &.rightside__menu--close{
-        transform: translateX(200%);
+        // transform: translateX(200%);
+        display: none;
     }
 
     &-close {
