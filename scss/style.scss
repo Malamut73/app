@@ -56,6 +56,7 @@
 
 .footer{
     &__content{
+        min-width: 1140px;
         background: #DFDFDF;
         padding: 60px 0 80px;
     }
@@ -160,6 +161,7 @@
         width: 125px;
     }
     &__copyright{
+        min-width: 1140px;
         background-color: $title;
         color: #A1A1A1;
         text-align: center;
@@ -179,6 +181,7 @@
     width: 100%;
     box-shadow: -2px 3px 17px 0px #000;
     transition: .3s;
+    height: 1000px;
 
     &.rightside__menu--close{
         transform: translateX(200%);
@@ -261,8 +264,7 @@
 }
 
 .top {
-
-
+    min-width: 1140px;
     &__inner {
         padding-bottom: 70px;
         position: relative;
@@ -419,6 +421,7 @@
     background-image: url(../images/decor-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    min-width: 1140px;
 
     &__title {
         max-width: 730px;
@@ -1384,6 +1387,7 @@
     }
 }
 
+@import 'media';
 
 
 
