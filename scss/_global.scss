@@ -9,14 +9,16 @@ body{
 	font-size: 16px;
 	line-height: 27px;	
 	color: $default;
-	overflow-x: hidden;
-	min-width: 320px;
+	// overflow-x: hidden;
+	min-width: 300px;
 }
 
 .wrapper {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
+	position: relative;
+	overflow-x: hidden;
 }
 
 .main {
@@ -27,14 +29,13 @@ body{
 }
 
 .container{
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .container-fluid{
 	max-width: 1920px;
-	min-width: 1140px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
